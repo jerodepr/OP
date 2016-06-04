@@ -1,0 +1,227 @@
+body {
+    background-image: url("patroon.png");background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    max-width: 600px;
+    color: black;
+    font-family: 'helvetica';
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+h1{
+    font-family: 'chewy';
+    padding-bottom: 20px;
+    font-size: 4em;
+    color: orange;
+}
+
+.tekst{
+    width: 600px;
+    margin: 7% auto;
+    padding: 100px;
+    background-color: white;
+    animation: fade-in 1.2s;
+}
+
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.terug{
+    width: 35px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: block;
+}
+
+.kleine{
+    width: 600px; 
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .tekst{
+        width: 500px;
+    }
+    
+    .kleine{
+        width: 500px;
+    }
+    
+    .img4{
+        margin-left: 0px;
+    }
+    
+    .img5{
+        margin-left: 50px;
+    }
+    
+    .img6{
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .tekst{
+        width: 500px;
+    }
+    
+    .kleine{
+        width: 500px;
+    }
+    
+    .img4{
+        margin-left: 0px;
+    }
+    
+    .img5{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tekst{
+        width: 480px;
+        padding: 50px;
+    
+    }
+    
+    .foto{
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .tekst{
+        width: 310px;
+        padding: 50px;
+    
+    }
+    
+    .kleine{
+        width: 310px;
+    }
+    
+    .img2{
+        margin-left: 50px;
+    }
+    .img3{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .img4{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .img5{margin-left: 50px;}
+    
+    .img6{
+        margin-left: 50px;
+    }
+    .img21{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tekst{
+        width: 310px;
+        padding: 50px;
+    
+    }
+    
+    .kleine{
+        width: 310px;
+    }
+    
+    .img2{
+        margin-left: 50px;
+    }
+    .img3{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .img4{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .img5{margin-left: 50px;}
+}
+
+
+@media screen and (max-width: 550px) {
+.tekst{
+        width: 310px;
+        padding: 50px;
+    
+    }
+    
+    .kleine{
+        width: 310px;
+    }
+    
+    .img2{
+        margin-left: 50px;
+    }
+    .img3{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .img4{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .img5{margin-left: 50px;}
+    
+    h1{
+        font-size: 4.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+.tekst{
+        width: 210px;
+        padding: 50px;
+    
+    }
+    
+    .kleine{
+        width: 210px;
+    }
+    
+    .img2{
+        margin-left: 0px;
+    }
+    .img3{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .img4{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .img5{margin-left: 0px;}
+    
+    .img6{margin-left: 0px;}
+    
+    .img7{margin-left: 0px;}
+    
+    .img21{
+        margin-left: 0px;
+    }
+    
+    .img31{
+        margin-left: 0px;
+    }
+}

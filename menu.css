@@ -1,0 +1,170 @@
+body {
+}
+
+.alles{
+    max-width: 2400px;
+    width: 100%;
+    max-height: 1850px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.afb1{
+    max-width: 600px;
+    width: 25%;
+    max-height: 1800px;
+    height: 100%;
+    background-image: url(img/foto1_donker.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    display: block;
+    float: left;
+}
+
+.afb1:hover{
+    background-image: url(img/foto1.png);
+    transition: all 1s;
+}
+
+.afb2{
+    max-width: 600px;
+    width: 25%;
+    max-height: 1800px;
+    height: 100%;
+    background-image: url(img/foto2_donker.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    float: left;
+}
+
+.afb2:hover{
+    background-image: url(img/foto2.jpg);
+    transition: all 1s;
+}
+
+.afb3{
+    max-width: 600px;
+    width: 25%;
+    max-height: 1800px;
+    height: 100%;
+    background-image: url(img/foto3_donker.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    float: left;
+}
+
+.afb3:hover{
+    background-image: url(img/foto3.jpg);
+    transition: all 1s;
+}
+
+.afb4{
+    max-width: 600px;
+    width: 25%;
+    max-height: 1800px;
+    height: 100%;
+    background-image: url(img/foto4_donker.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    float: left;
+}
+
+.afb4:hover{
+    background-image: url(img/foto4.jpg);
+    transition: all 1s;
+}
+
+h1{
+    font-family: "chewy";
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-top: 350px;
+}
+
+.terug{
+    width: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+   h1{
+    font-size: 3em;margin-top: 350px;}
+}
+
+
+@media screen and (max-width: 1050px) {
+   h1{
+       font-size: 3em;
+       margin-top: 70px;
+       position: relative;
+       z-index: 200;
+    }
+    .afb1{
+        width: 100%;
+        max-width: 2500px;
+        height: 25%;
+        max-height: 600px;
+        background-position: left center;
+    }
+    
+    .afb2{
+        width: 100%;
+        max-width: 2500px;
+        height: 25%;
+        max-height: 600px;
+    }
+    
+    .afb3{
+        width: 100%;
+        max-width: 2500px;
+        height: 25%;
+        max-height: 600px;
+    }
+    
+    .afb4{
+        width: 100%;
+        max-width: 2500px;
+        height: 25%;
+        max-height: 600px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 900px) {}
+   
+
+    @media screen and (max-width: 800px) {}
+  
+
+
+@media screen and (max-width: 700px) {
+    
+}
+
+@media screen and (max-width: 600px) 
+{
+h1{
+    font-size: 3em;}
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+    h1{font-size: 3em;}
+}
+
+@media screen and (max-width: 450px) {
+
+    h1{font-size: 2em;margin-top: 80px;}
+}
