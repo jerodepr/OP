@@ -1,8 +1,7 @@
 body {
-    background-image: url("patroon.png");background-repeat: no-repeat;
+    background-image: url("../patroon.png");background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Architects Daughter', cursive;
 }
 
 p {
@@ -17,7 +16,7 @@ p {
 
 h1{
     font-family: 'chewy';
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     font-size: 4em;
     color: orange;
 }
@@ -43,118 +42,100 @@ h1{
 }
 
 .gebouw{
-    width: 600px; 
+    width: 300px;
+    height: 461.6px;
     padding-top: 20px;
-    margin: 0 auto;
+    margin: 0px auto;
+    display: block;
 }
 
 .info{
     padding-bottom: 20px;
 }
 
-/* reset */
-#wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 200;
+.link1{ 
+    text-decoration: none;
 }
 
-label {
-  cursor: pointer;
+.link2{ 
+    text-decoration: none;
 }
-label:focus {
-  outline: none;
 }
 
-.menu {
-  position: fixed;
-  z-index: 200;
-  top: 0px;
-  left: 0px;
-  background: rgba(5,5,5,0.8);
-  width: 240px;
-  height: 100%;
-  transform: translate3d(-240px, 0, 0);
-  transition: transform 0.35s;
-}
-.menu label.menu-toggle {
-  position: fixed;
-  right: -60px;
-  width: 60px;
-  height: 60px;
-  line-height: 0px;
-  display: block;
-  padding: 0;
-  text-indent: -9999px;
-  background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/25px 25px no-repeat;
-}
-.menu ul li > label {
-  background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50%/16px 16px no-repeat;
-}
-.menu ul li a, .menu ul li label {
-  display: block;
-  text-align: center;
-  padding: 0 20px;
-  line-height: 60px;
-  text-decoration: none;
-  color: rgb(200,200,200);
-}
-.menu ul li a:hover, .menu ul li label:hover {
-  color: rgb(150,150,150);
+#links{
+    margin-left:  50px;
+    padding-left: 200px;
 }
 
-/* hide inputs */
-.menu-checkbox {
-  display: none;
+.center{
+    width: 165px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
-/* hide navigation icon for sublabels */
-.menu .menu label.menu-toggle {
-  background: none;
-}
-
-/* fade in checked menu */
-.menu-checkbox:checked + .menu {
-  transform: translate3d(0, 0, 0);
-}
-
-   
-#info {
-  display: table;
-  background: rgba(0, 0, 0, 0.4);
-  height: 100%;
-  width: 100%;
-}
-#info #info-content {
+.btn-container {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 12px;
 }
-#info #info-content h1 {
-  color: #fff;
-  border: 3px solid #fff;
+.btn-container .btn {
+font-family: 'Roboto';
+  margin-top: 10px;
   text-align: center;
-  background: rgba(0, 0, 0, 0.1);
-  font-size: 22px;
-  font-weight: normal;
-  padding: 20px;
-  margin: 10px;
-  display: inline-block;
-}
-#info #info-content h1 strong {
+  cursor: pointer;
+  line-height: 40px;
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  margin-right: 15px;
+  text-decoration: none;
+  padding: 0px 0px 0px 0px;
+  height: 40px;
+  border: 2px solid black;
   display: block;
-  font-size: 26px;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  border-radius: 2px;
+  margin: 0 auto;
+  color: black;
+  transition-property: color;
+  -webkit-transition-property: color;
+  transition-duration: 0.2s;
+  webkit-transition-duration: 0.2s;
 }
-
-
-
-
-
+.btn .slider {
+  background: black;
+  width: 180px;
+  height: 45px;
+  position: absolute;
+  display: block;
+  z-index: 0;
+  transform: skew(30deg);
+  -webkit-transform: skew(30deg);
+  left: -200px;
+  -webkit-transition: transform 0.3;
+  transition: transform 0.3;
+  transition-duration: .2s;
+  -webkit-transition-duration: .5s;
+}
+.btn .label {
+  position: relative;
+  z-index: 1;
+}
+.btn:hover > .slider {
+  transform: translateX(190px);
+  -webkit-transform: translateX(190px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  transition-duration: .4s;
+  -webkit-transition-duration: .4s;
+}
+.btn:hover {
+  color: white;
+  transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+}
 
 
 
